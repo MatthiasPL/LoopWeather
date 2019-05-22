@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/dark_blue_gradient"
+
+>
+
+
+    <TextView
+            android:text="LoopWeather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+            android:layout_marginTop="30dp" android:layout_marginLeft="30dp"
+            android:fontFamily="@font/audiowide" android:textColor="#F7F4EA"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+            android:id="@+id/textView3" android:layout_marginTop="40dp" android:layout_below="@+id/textView2"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline1"
+            android:text="10°C" android:fontFamily="@font/averia_libre_light" android:textColor="#F7F4EA"/>
+    <TextView
+            android:text="Gliwice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+            android:id="@+id/tvMiasto"
+            android:layout_marginTop="0dp" android:layout_below="@+id/textView3"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+            android:fontFamily="@font/averia_libre" android:textColor="#F7F4EA"/>
+</RelativeLayout>
